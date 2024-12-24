@@ -1,0 +1,16 @@
+.resizable-textarea {
+    width: 100%;
+  }
+  
+  .Text-area {
+    width: 100%;
+    min-height: 50px; /* Set a minimum height */
+    max-height: 200px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+    resize: vertical; /* Allow vertical resizing */
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px; /* Optional: Adjust font size */
+    font-family: Arial, sans-serif; /* Optional: Adjust font family */
+  }
+  
